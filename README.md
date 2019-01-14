@@ -17,7 +17,7 @@ On macOS you also need to install watchman: `brew install watchman`
 
 # Usage
 
-1. Inherit your smart contract from `Feeless` smaert contract
+1. Inherit your smart contract from `Feeless` smart contract
 2. Add `feeless` modifier for any methods you wanna allow to call indirectly
 3. Use `msgSender` instead of `msg.sender` in these methods and methods internally called by them
 
